@@ -137,6 +137,31 @@ const odc1 = () => {
           Wyobraźcie sobie ,że w momencie przerywania kabla koncentrycznego, cała sięc przestawała działać <br/>
           Niewątpliwą zaletą w stosowaniu tej topologii był niewielki koszt jej wdrożenia ponieważ nie <br/>
           trzeba było tutaj stosować setek metrów kabla ani żądnych urządzeń pośredniczących <br/>
+          W Topologii pierścienia każde urządzenie podłączone jest z dwoma sąsiadami tworząc zamknięty krąg,<br/>
+          podobnie jak w przypadku topologii magistrali przy budowie nie stosuje się dużej ilości <br/>
+          oraz dodatkowych urządzeń. Ponadto można wykorzystać różne Media transmisyjne począwszy od kabla koncentrycznego <br/>
+          poprzez skrętke aż do kabli światłowodowych, Wadą tej topologii jest fakt iż przerwanie medium lub awaria <br/>
+          jednego z komputerów powoduje przerwę w działaniu całej sieci aby temu zapobiec stosuje sie tak zwany podwójny <br/>
+          pierscien czyli podwaja się liczbę połąćzeń miedzy urządzeniami, wówczas taką topologię nazywa sie topologia podwojnego <br/>
+          pierscienia,No i została nam jeszcze topologia gwiazdy, w której urządzenia podłączone są do centalnego puntku stanowiącego<br/>
+          punkt dostępu do sieci, dawniej punkty te stanowiły koncentratory z angielskiego Hub <br/>
+          obecnie natomiast stosuje sie przełączniki z angielskiego switch<br/>
+          w lokalnych sieciach komputerowych jest to najczesciej spotykana topologia ponieważ jest prosta
+          w zaprojektowaniu budowie oraz rozbudowie, dodatkowo odporna jest na awarie i łątwo zarządzalna <br/>
+          Ponadto przy jej budowie wykorzystać różne Media transmisyjne takie jak skrętka  miedziana,<br/>
+          kabel światłowodowy czy też fale radiowe, istotną wadę może stanowić koszt budowy takiej sieci, ponieważ <br/>
+          wymagane jest zastosowanie dodatkowych urządzeń, wspomnianych wcześniej switchy oraz wiele metrów kabla.
+          <h1>Topologia Logiczna definuje sposoby oraz reguły Komunikacji urządzeń w sieci, <br/>
+          w sieciach komputerowych wyroznic mozemy trzy topologie logiczne,bedą to: <br/>
+          Topologia punkt punkt <br/>
+          Topologia pierscienia <br/>
+          Topologia wielodostepowa <br/>
+          <p>W topologii typu punkt punkt dane przesyłane są tylko od jednego urządzenia do drugiego <br/>
+          urządzenia te mogą być podłączone ze sobą bezpośrednio na przyklad komputer z przełącznikiem <br/>
+          jak również pośrednio z wykorzystaniem urządzeń pośredniczących, zarowno w jedynm jak i w drugim przypadku mowic mozemy <br/>
+          o logicznym połączeniu typu punt punkt
+          </p>
+          </h1>
         </div>
     
         
