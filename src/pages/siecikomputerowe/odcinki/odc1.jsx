@@ -112,9 +112,31 @@ const odc1 = () => {
           <p>Nie wystepuje tutaj jeden lub wiecej komputerow udostepniajacych usługi, lecz</p>
           <p>wiele komputerow na tych samych prawach</p>
           <p>Każdy komputer w tej sieci może jednoczesnie korzystać z zasobów oraz je udostępniac</p>
-          <p>korzystajac z usług wymiany plikow np. bittorrent</p>
-
-
+          <p>korzystajac z usług wymiany plikow np. bittorrent korzystamy właśnie z architektury równorzędnej</p>
+          <p>Topologia sieci komputerowej okresla relacje pomiedzy urzadzeniam w sieci <br/>
+             polaczenia miedzi nimi oraz sposob przeplywu danych, topologię sieci dzielimy na fizyczną która
+            określa sposób połączenia urządzeń w sieci <br/>
+            oraz topologie logiczną któ©a opisuje sposoby komunikacji pomiedzy urządzeniami w sieci <br/>
+          </p>
+          <p>Topologie fizyczne: <br/>
+          magistrali(ang.bus)<br/>
+          pierścienia(ang.ring)<br/>
+          gwiazdy(ang.star) <br/>
+          W wiekszych sieciach: <br/>
+          rozszerzona gwiazda(ang.extended star) <br/>
+          siatki(ang.mesh)<br/>
+          </p>
+          <p>Topologia Magistrali  </p> <br/>
+          <p>Cechuje się tym iż wszystkie urządzenia podłączone są do wspólnego medium transmisyjnego </p> <br/>
+          powszechnie stosowanym w tej topologii medium transmisyjnym był kabel koncentryczny <br/>
+          ,zastosowanie koncentryka jako fizyczne medium stanowiło Jedna z wad tej topologii a mianowicie <br/>
+          niewielką przepustowość, Przypominam,że w przypadku koncentryka jest to maksymalnie 10 Mb/s
+          topologia ta była stosowana do lokalnych sieci komputerowych, celowo używam tutaj słowa była, <br/>
+          ponieważ nie jest już powszechnie stosowana<br/>
+          Poza niską przepustowością charakteryzowała ją również duża podatność na awarie.<br/>
+          Wyobraźcie sobie ,że w momencie przerywania kabla koncentrycznego, cała sięc przestawała działać <br/>
+          Niewątpliwą zaletą w stosowaniu tej topologii był niewielki koszt jej wdrożenia ponieważ nie <br/>
+          trzeba było tutaj stosować setek metrów kabla ani żądnych urządzeń pośredniczących <br/>
         </div>
     
         
