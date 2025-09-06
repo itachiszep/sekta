@@ -74,94 +74,70 @@ const odc1 = () => {
         <img className="itachi" src="/images/niko18.png"/>
         <h1>Podsumowanie - media miedziane <br/>  </h1>
         <p>Zalety:</p>
-        <p>Niski koszt zakupu</p>
-        <p>Łatwe w montażu i instalacji</p>
-        <p>Łatwośc diagnozowania i naprawy usterek</p>
-        <p>Wady:</p>
-        <p>Wrażliwość na zakłócenie elektromagnetyczne</p>
-        <p>Niewielka odległość pomiedzy węzłami sieci</p>
-        <p>Mniejsza przepustowość w porównaniu do światłowodu</p>
-        <p>Podsumowanie - media swiatłowodowe</p>
-        <p>Zalety:</p>
-        <p>Wysoka przepustowość</p>
-        <p>Transmisja na duże odległości</p>
-        <p>Znikoma wrażliwość na zakłócenia elektromagnetyczne</p>
-        <p>Wady:</p>
-        <p>Rozmycie sygnału</p>
-        <p>Trudniejsze w instalacji</p>
-        <p>Drogi osprzęt sieciowy wykorzystujący światłowody</p>
-        <p>Media bezprzewodowe - fale radiowe</p>
-        <p>Fale radiowe to promieniowanie elektromagnetyczne z zakresu częstotliwości od 3 Hz do około 3 THz</p>
-        <p>Fale długie, fale krótkie fale średnie fale ultrakrótkie</p>
-        <img className="itachi" src="/images/niko19.png"/>
-        <p>Rodzaje sieci</p>
-        <p>Lan (ang. Local Area Network) to sięc zajmująca najmniejszy obszar<br/>
-        ,np. w pracowni lub domu</p>
-        
-          <p>Rodzaje Sieci</p>
-          <p>Man (an. Metropolitan Area Network) to sieć zajmująca obszar miasta lub aglomeracji</p>
-          <p>Wan (ang. Wide Area Network) to rozległa sieć połączonych ze sobą sieci LAN i MAN</p>
-          <p>Wyróżniamy architekture klient - Serwer i architekture Równorzędną</p>
-          <p>W architekturze Klient-serwer występuje jeden lub klika komputerów</p>
-          <p>udostępniajacych uslugi innym uzytkownikom sieci</p>
-          <p>są to serwery, oraz wiele komputerow korzystajacych z ich uslug</p>
-          <p>są to klienci przegladaja strony www, wysyłając poczte elektroniczną,</p>
-          <p>czy korzystając z baz danych korzystamy własnie z architektury klient serwer</p>
-          <p>innaczej jest w przypadku architektury równorzędnej zwanej architekturą</p>
-          <p>Peer-to-Peer (P2P)</p>
-          <p>Nie wystepuje tutaj jeden lub wiecej komputerow udostepniajacych usługi, lecz</p>
-          <p>wiele komputerow na tych samych prawach</p>
-          <p>Każdy komputer w tej sieci może jednoczesnie korzystać z zasobów oraz je udostępniac</p>
-          <p>korzystajac z usług wymiany plikow np. bittorrent korzystamy właśnie z architektury równorzędnej</p>
-          <p>Topologia sieci komputerowej okresla relacje pomiedzy urzadzeniam w sieci <br/>
-             polaczenia miedzi nimi oraz sposob przeplywu danych, topologię sieci dzielimy na fizyczną która
-            określa sposób połączenia urządzeń w sieci <br/>
-            oraz topologie logiczną któ©a opisuje sposoby komunikacji pomiedzy urządzeniami w sieci <br/>
-          </p>
-          <p>Topologie fizyczne: <br/>
-          magistrali(ang.bus)<br/>
-          pierścienia(ang.ring)<br/>
-          gwiazdy(ang.star) <br/>
-          W wiekszych sieciach: <br/>
-          rozszerzona gwiazda(ang.extended star) <br/>
-          siatki(ang.mesh)<br/>
-          </p>
-          <p>Topologia Magistrali  </p> <br/>
-          <p>Cechuje się tym iż wszystkie urządzenia podłączone są do wspólnego medium transmisyjnego </p> <br/>
-          powszechnie stosowanym w tej topologii medium transmisyjnym był kabel koncentryczny <br/>
-          ,zastosowanie koncentryka jako fizyczne medium stanowiło Jedna z wad tej topologii a mianowicie <br/>
-          niewielką przepustowość, Przypominam,że w przypadku koncentryka jest to maksymalnie 10 Mb/s
-          topologia ta była stosowana do lokalnych sieci komputerowych, celowo używam tutaj słowa była, <br/>
-          ponieważ nie jest już powszechnie stosowana<br/>
-          Poza niską przepustowością charakteryzowała ją również duża podatność na awarie.<br/>
-          Wyobraźcie sobie ,że w momencie przerywania kabla koncentrycznego, cała sięc przestawała działać <br/>
-          Niewątpliwą zaletą w stosowaniu tej topologii był niewielki koszt jej wdrożenia ponieważ nie <br/>
-          trzeba było tutaj stosować setek metrów kabla ani żądnych urządzeń pośredniczących <br/>
-          W Topologii pierścienia każde urządzenie podłączone jest z dwoma sąsiadami tworząc zamknięty krąg,<br/>
-          podobnie jak w przypadku topologii magistrali przy budowie nie stosuje się dużej ilości <br/>
-          oraz dodatkowych urządzeń. Ponadto można wykorzystać różne Media transmisyjne począwszy od kabla koncentrycznego <br/>
-          poprzez skrętke aż do kabli światłowodowych, Wadą tej topologii jest fakt iż przerwanie medium lub awaria <br/>
-          jednego z komputerów powoduje przerwę w działaniu całej sieci aby temu zapobiec stosuje sie tak zwany podwójny <br/>
-          pierscien czyli podwaja się liczbę połąćzeń miedzy urządzeniami, wówczas taką topologię nazywa sie topologia podwojnego <br/>
-          pierscienia,No i została nam jeszcze topologia gwiazdy, w której urządzenia podłączone są do centalnego puntku stanowiącego<br/>
-          punkt dostępu do sieci, dawniej punkty te stanowiły koncentratory z angielskiego Hub <br/>
-          obecnie natomiast stosuje sie przełączniki z angielskiego switch<br/>
-          w lokalnych sieciach komputerowych jest to najczesciej spotykana topologia ponieważ jest prosta
-          w zaprojektowaniu budowie oraz rozbudowie, dodatkowo odporna jest na awarie i łątwo zarządzalna <br/>
-          Ponadto przy jej budowie wykorzystać różne Media transmisyjne takie jak skrętka  miedziana,<br/>
-          kabel światłowodowy czy też fale radiowe, istotną wadę może stanowić koszt budowy takiej sieci, ponieważ <br/>
-          wymagane jest zastosowanie dodatkowych urządzeń, wspomnianych wcześniej switchy oraz wiele metrów kabla.
-          <h1>Topologia Logiczna definuje sposoby oraz reguły Komunikacji urządzeń w sieci, <br/>
-          w sieciach komputerowych wyroznic mozemy trzy topologie logiczne,bedą to: <br/>
-          Topologia punkt punkt <br/>
-          Topologia pierscienia <br/>
-          Topologia wielodostepowa <br/>
-          <p>W topologii typu punkt punkt dane przesyłane są tylko od jednego urządzenia do drugiego <br/>
-          urządzenia te mogą być podłączone ze sobą bezpośrednio na przyklad komputer z przełącznikiem <br/>
-          jak również pośrednio z wykorzystaniem urządzeń pośredniczących, zarowno w jedynm jak i w drugim przypadku mowic mozemy <br/>
-          o logicznym połączeniu typu punt punkt
-          </p>
-          </h1>
+<p>Niski koszt zakupu</p>
+<p>Łatwe w montażu i instalacji</p>
+<p>Łatwość diagnozowania i naprawy usterek</p>
+
+<p>Wady:</p>
+<p>Wrażliwość na zakłócenie elektromagnetyczne</p>
+<p>Niewielka odległość pomiędzy węzłami sieci</p>
+<p>Mniejsza przepustowość w porównaniu do światłowodu</p>
+
+<p>Podsumowanie - media światłowodowe</p>
+<p>Zalety:</p>
+<p>Wysoka przepustowość</p>
+<p>Transmisja na duże odległości</p>
+<p>Znikoma wrażliwość na zakłócenia elektromagnetyczne</p>
+
+<p>Wady:</p>
+<p>Rozmycie sygnału</p>
+<p>Trudniejsze w instalacji</p>
+<p>Drogi osprzęt sieciowy wykorzystujący światłowody</p>
+
+<p>Media bezprzewodowe - fale radiowe</p>
+<p>Fale radiowe to promieniowanie elektromagnetyczne z zakresu częstotliwości od 3 Hz do około 3 THz</p>
+<p>Fale długie, fale krótkie, fale średnie, fale ultrakrótkie</p>
+<img class="itachi" src="/images/niko19.png" alt="Fale radiowe"/>
+
+<p>Rodzaje sieci</p>
+<p>LAN (ang. Local Area Network) to sieć zajmująca najmniejszy obszar, np. w pracowni lub domu.</p>
+<p>MAN (ang. Metropolitan Area Network) to sieć zajmująca obszar miasta lub aglomeracji.</p>
+<p>WAN (ang. Wide Area Network) to rozległa sieć połączonych ze sobą sieci LAN i MAN.</p>
+
+<p>Wyróżniamy architekturę klient-serwer i architekturę równorzędną.</p>
+<p>W architekturze klient-serwer występuje jeden lub kilka komputerów udostępniających usługi innym użytkownikom sieci – są to serwery, oraz wiele komputerów korzystających z ich usług – są to klienci (przeglądają strony www, wysyłają pocztę elektroniczną, korzystają z baz danych).</p>
+
+<p>Architektura równorzędna (Peer-to-Peer, P2P) nie posiada wyodrębnionych serwerów. Każdy komputer może jednocześnie korzystać z zasobów oraz je udostępniać, np. przy wymianie plików w sieci BitTorrent.</p>
+
+<p>Topologia sieci komputerowej określa relacje pomiędzy urządzeniami w sieci, połączenia między nimi oraz sposób przepływu danych. Wyróżniamy:</p>
+<ul>
+  <li>Topologię fizyczną – określa sposób połączenia urządzeń w sieci</li>
+  <li>Topologię logiczną – opisuje sposoby komunikacji pomiędzy urządzeniami w sieci</li>
+</ul>
+
+<p>Topologie fizyczne:</p>
+<ul>
+  <li>Magistrali (ang. bus)</li>
+  <li>Pierścienia (ang. ring)</li>
+  <li>Gwiazdy (ang. star)</li>
+  <li>Rozszerzona gwiazda (ang. extended star) – w większych sieciach</li>
+  <li>Siatki (ang. mesh)</li>
+</ul>
+
+<p>Topologia magistrali cechuje się tym, iż wszystkie urządzenia podłączone są do wspólnego medium transmisyjnego, zwykle kabla koncentrycznego. Wadą była niewielka przepustowość (maks. 10 Mb/s) i duża podatność na awarie. Zaletą – niski koszt wdrożenia.</p>
+
+<p>Topologia pierścienia: każde urządzenie podłączone jest z dwoma sąsiadami, tworząc zamknięty krąg. Można stosować różne media transmisyjne. Wadą jest przerwanie działania całej sieci w przypadku awarii jednego komputera. Stosuje się podwójny pierścień, aby temu zapobiec.</p>
+
+<p>Topologia gwiazdy: urządzenia podłączone są do centralnego punktu (Hub lub Switch), który stanowi punkt dostępu do sieci. Najczęściej stosowana w lokalnych sieciach komputerowych, prosta w projektowaniu, odporna na awarie, łatwo zarządzalna. Wadą może być koszt budowy związany z zastosowaniem dodatkowych urządzeń i metrów kabla.</p>
+
+<h1>Topologia logiczna</h1>
+<p>Definiuje sposoby i reguły komunikacji urządzeń w sieci. Wyróżniamy:</p>
+<ul>
+  <li>Topologię punkt-punkt – dane przesyłane są od jednego urządzenia do drugiego, bezpośrednio lub pośrednio.</li>
+  <li>Topologię pierścienia</li>
+  <li>Topologię wielodostępową</li>
+</ul>
+
         </div>
     
         
