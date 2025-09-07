@@ -40,7 +40,27 @@ const odc2 = () => {
         <img className="itachi" src="/images/biko30.png"/>
         <img className="itachi" src="/images/biko31.png"/>
 
-
+    <ul>Podsumowanie
+    <li>W sieciach komputerowych stosuje się modele warstwowe w celu łatwiejszego opisywania<br/>
+        i sterowania poszczególnymi etapami komunikacji, a także w celu standaryzacji,<br/>
+        tak aby zarówno sprzęt, jak i oprogramowanie różnych producentów były ze sobą kompatybilne.<br/>
+    </li>
+    <li>Komunikacja w sieci odbywa się z wykorzystaniem przyjętych reguł i zasad zwanych<br/>
+        protokołami komunikacyjnymi.<br/>
+    </li>
+    <li>Proces komunikacji w sieci polega na przekazywaniu danych w dół stosu<br/>
+        na urządzeniu źródłowym, zakodowaniu ich do postaci bitów i przesłaniu do urządzenia docelowego,<br/>
+        gdzie dane są przekazywane w górę stosu i interpretowane.<br/>
+    </li>
+    <li>W poszczególnych warstwach dane opatrywane są informacjami sterującymi, numerami portów<br/>
+        oraz adresami logicznymi i fizycznymi, następnie są kodowane i przesyłane do odbiorcy.<br/>
+    </li>
+    <li>Proces przepływu danych przez stos w dół i nadawania informacji sterujących oraz adresów
+        nazywamy enkapsulacją.<br/>
+    </li>
+    <li>Natomiast na urządzeniu końcowym, kiedy dane przesyłane są w górę stosu, proces ten nazywany jest dekapsulacją.<br/>
+    </li>
+</ul>
     </div>
 </div>    
 )
