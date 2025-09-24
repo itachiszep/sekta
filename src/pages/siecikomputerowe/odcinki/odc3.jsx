@@ -6,7 +6,7 @@ const odc3 = () => {
       <div className='center'>
         <img className="itachi" src="/images/itachi-uchiha-naruto-amoled-black-background-minimal-art-3840x2160-6478.jpg"/>
         <iframe width="853" height="480" src="https://www.youtube.com/embed/eb_2O3STPsI"></iframe>
-        <h1>Sieci komputerowe odc. 3 - Warstwa aplikacji</h1>
+        <h1>Sieci komputerowe odc. 3 - Warstwa aplikacjii</h1>
 <img className="itachi" src="/images/fido1.png"/>
 <img className="itachi" src="/images/fido2.png"/>
 <img className="itachi" src="/images/fido3.png"/>
